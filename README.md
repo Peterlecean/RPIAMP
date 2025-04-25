@@ -4,17 +4,9 @@
 
 This project provides a modular, secure, and lightweight VPN-based architecture to connect sensor nodes deployed across different geographical areas. Designed for use with Raspberry Pi or NUC systems, it integrates OpenVPN for secure networking, SDR for signal processing, and dynamic DNS for seamless remote access.
 
-## Key Features
-
-- ✅ Lightweight VPN setup for constrained devices (OpenVPN)
-- 🌐 Dynamic DNS (DuckDNS) for changing IP environments
-- 📡 SDR integration for flexible communication
-- 🔊 Optional Icecast stream server for real-time audio data
-- 🔒 End-to-end encrypted node-to-server connections
-
 ## Hardware & Requirements
 
-- Raspberry Pi 3/4 or Intel NUC
+- Raspberry Pi Zero 2 W or Intel NUC
 - USB SDR dongle (RTL-SDR or equivalent)
 - Linux-based OS (Debian/Ubuntu recommended)
 - Internet connection for each node
@@ -23,11 +15,11 @@ This project provides a modular, secure, and lightweight VPN-based architecture 
 
 ## Installation
 
-Clone the repository and run the automated setup script:
+Clone the repository and run the automated setup script (with sudo):
 
 ```bash
-git clone https://github.com/yourusername/your-vpn-project.git
-cd your-vpn-project
+git clone https://github.com/Peterlecean/RPIAMP.git
+cd RPIAMP
 chmod +x setup.sh
 ./setup.sh
 ```
